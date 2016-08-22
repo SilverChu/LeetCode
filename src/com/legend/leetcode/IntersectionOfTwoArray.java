@@ -14,8 +14,8 @@ import java.util.HashSet;
 public class IntersectionOfTwoArray {
 
 	/**
-	 * setÀàµÄÌØĞÔ½â¾ö½»¼¯ÎÊÌâ
-	 * 
+	 * setç±»çš„ç‰¹æ€§è§£å†³äº¤é›†é—®é¢˜
+	 *
 	 * @param num1
 	 * @param num2
 	 * @return
@@ -44,8 +44,8 @@ public class IntersectionOfTwoArray {
 	}
 
 	/**
-	 * ¶ÔÁ½¸ö¼¯ºÏ½øĞĞÅÅĞò,²¢Ê¹ÓÃÖ¸Õë¼ÆËã³ö½á¹û
-	 * 
+	 * å¯¹ä¸¤ä¸ªé›†åˆè¿›è¡Œæ’åº,å¹¶ä½¿ç”¨æŒ‡é’ˆè®¡ç®—å‡ºç»“æœ
+	 *
 	 * @param num1
 	 * @param num2
 	 * @return
@@ -96,12 +96,12 @@ public class IntersectionOfTwoArray {
 	}
 
 	/**
-	 * ¶ş·Ö²éÕÒ
-	 * 
+	 * äºŒåˆ†æŸ¥æ‰¾
+	 *
 	 * @param nums
-	 *            ±»ÅÅĞòµÄintÊı×é
+	 *            è¢«æ’åºçš„intæ•°ç»„
 	 * @param target
-	 *            Ä¿±êÊı×Ö
+	 *            ç›®æ ‡æ•°å­—
 	 * @return
 	 */
 	private boolean binarySearch(int[] nums, Integer target) {
@@ -128,7 +128,7 @@ public class IntersectionOfTwoArray {
 		int[] result1 = iota.intersection1(num1, num2);
 		int[] result2 = iota.intersection2(num1, num2);
 		int[] result3 = iota.intersection3(num1, num2);
-		System.out.println(Arrays.toString(result1)); // Êä³öÊı×éµÄ·½Ê½
+		System.out.println(Arrays.toString(result1)); // ??????????
 		System.out.println(Arrays.toString(result2));
 		System.out.println(Arrays.toString(result3));
 	}

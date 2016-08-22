@@ -7,22 +7,22 @@ package com.legend.leetcode;
 public class ReverseString {
 
 	/**
-	 * StringBuffer API·´×ª×Ö·û´®
-	 * 
+	 * StringBuffer APIåè½¬å­—ç¬¦ä¸²
+	 *
 	 * @param s
-	 *            ´«ÈëµÄ×Ö·û´®
-	 * @return ·´×ªºóµÄ×Ö·û´®
+	 *            ä¼ å…¥çš„å­—ç¬¦ä¸²
+	 * @return åè½¬åçš„å­—ç¬¦ä¸²
 	 */
 	public String reverseString1(String s) {
 		return new StringBuffer(s).reverse().toString();
 	}
 
 	/**
-	 * ³£¹æ×Ö·ûchar·´×ª·½·¨
-	 * 
+	 * å¸¸è§„å­—ç¬¦charåè½¬æ–¹æ³•
+	 *
 	 * @param s
-	 *            ´«ÈëµÄ×Ö·û´®
-	 * @return ·´×ªºóµÄ×Ö·û´®
+	 *            ä¼ å…¥çš„å­—ç¬¦ä¸²
+	 * @return åè½¬åçš„å­—ç¬¦ä¸²
 	 */
 	public String reverseString2(String s) {
 		char[] word = s.toCharArray();
@@ -39,11 +39,11 @@ public class ReverseString {
 	}
 
 	/**
-	 * ³£¹æ×Ö½Úbyte·´×ª·½·¨(Òì»òÔËËã)
-	 * 
+	 * å¸¸è§„å­—èŠ‚byteåè½¬æ–¹æ³•(å¼‚æˆ–è¿ç®—)
+	 *
 	 * @param s
-	 *            ´«ÈëµÄ×Ö·û´®
-	 * @return ·´×ªºóµÄ×Ö·û´®
+	 *            ä¼ å…¥çš„å­—ç¬¦ä¸²
+	 * @return åè½¬åçš„å­—ç¬¦ä¸²
 	 */
 	public String reverseString3(String s) {
 		byte[] word = s.getBytes();
@@ -60,11 +60,11 @@ public class ReverseString {
 	}
 
 	/**
-	 * µİ¹é·½Ê½Æ´½Ó×Ö·û´®´ïµ½·´×ª×Ö·û´®Ğ§¹û
-	 * 
+	 * é€’å½’æ–¹å¼æ‹¼æ¥å­—ç¬¦ä¸²è¾¾åˆ°åè½¬å­—ç¬¦ä¸²æ•ˆæœ
+	 *
 	 * @param s
-	 *            ´«ÈëµÄ×Ö·û´®
-	 * @return ·´×ªºóµÄ×Ö·û´®
+	 *            ä¼ å…¥çš„å­—ç¬¦ä¸²
+	 * @return åè½¬åçš„å­—ç¬¦ä¸²
 	 */
 	public String reverseString4(String s) {
 		int length = s.length();
