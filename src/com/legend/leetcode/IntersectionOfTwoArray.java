@@ -128,7 +128,7 @@ public class IntersectionOfTwoArray {
 		int[] result1 = iota.intersection1(num1, num2);
 		int[] result2 = iota.intersection2(num1, num2);
 		int[] result3 = iota.intersection3(num1, num2);
-		System.out.println(Arrays.toString(result1)); // ??????????
+		System.out.println(Arrays.toString(result1));
 		System.out.println(Arrays.toString(result2));
 		System.out.println(Arrays.toString(result3));
 	}
